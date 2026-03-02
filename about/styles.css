@@ -1,0 +1,16 @@
+body {
+    padding-top: 30px;
+}
+h1 {
+    text-align: center;
+    color: rgb(27, 77, 62);
+    font-size: 3.5rem;
+    margin: 80px auto 20px;
+}
+p {
+    width: 60%;
+    margin:0 auto 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
