@@ -1,0 +1,339 @@
+
+#toppart {
+    background-image: url(images/image1.webp);
+    
+    padding-bottom: 180px;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    text-shadow: 0px 1px #314e30, 1px 0px #314e30, 0px -1px #314e30, -1px 0px #314e30;
+}
+#transform {
+    background-color: rgba(000, 000, 000, 0.7);
+    color: #fafbf1;
+    font-size: 1.3rem;
+    text-align: center;
+    display: inline;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#topq {
+    margin-top: 30px;
+}
+#oser {
+    padding-top: 30px;
+    
+    background-color: #d7ceb0;
+}
+.hrwrap{
+    position: relative;
+    
+}
+.line {
+    width: 90%;
+    border: 1px solid #8f9075;
+    margin: auto;
+    
+    
+}
+.os {
+    position: absolute;
+ top: 0;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: #314e30;
+ font-size: 2rem;
+ font-weight: 500;
+ padding: 0% 20px;
+ margin: 0%;
+ text-align: center;
+ 
+ 
+}
+#ser{
+background-color: #d7ceb0;
+
+}
+#imgcontainerbig{
+    display: flex;
+    justify-content: center;
+            flex-wrap: wrap;
+
+   
+}
+.imagecontainers{
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    width: 25%;
+    box-sizing: border-box;
+    border-right: 1px solid #8f9075;
+}
+.imagecontainers:nth-child(4){
+    border-right: none;
+}
+.imagecontainers img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+#portfolio {
+    background-color: #d7ceb0;
+    padding: 1.5% 0;
+}
+#oportfolio{
+    background-color: #d7ceb0;
+}
+#beforecontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0% auto 1%;
+}
+.beforecontainers {
+    width: 26%;
+    box-sizing: border-box;
+    position: relative;
+}
+.beforecontainers:last-child {
+    width: 47%;
+}
+.beforecontainersl {
+    width: 33%;
+    position: relative;
+}
+.beforecontainersl img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+.beforecontainers img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+.label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(49, 78, 48, 0.7);
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+#phone-devider {
+    display: none;
+}
+#secondcontainer {
+    display: flex;
+    width: 70%;
+    margin:0 auto;
+    justify-content: space-between;
+}
+
+#area {
+    
+    background: linear-gradient(rgba(215, 206, 176, 0.3), rgba(215, 206, 176, 1) 30%), url(images/background.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+#proudly {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #314e30;
+    padding-top: 200px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#subarea {
+    text-align: center;
+    font-size: 1.5rem;
+
+    color: #0c140c;
+    width: 40%;
+    margin: 35px auto 0;
+
+}
+.dcta{
+    display: flex;
+    justify-content: center;
+}
+.cta {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(rgb(44, 94, 61), rgb(67, 116, 58));
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.cta:hover {
+    background: linear-gradient(rgb(27, 77, 62), rgb(49, 105, 52));
+}
+#bottomq {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+footer {
+    background-color: #bdb8a1;
+}
+#fcontent{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+    padding: 20px 0px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+} 
+.fbox{
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.fbox:last-child{
+    border-right: none;
+}   
+
+.fbox #flogo {
+    width: 180px;
+}
+
+.material-symbols-outlined {
+    color: rgb(27, 77, 62);
+    font-weight: 700;
+    margin-left: 0px;
+}
+.fa-envelope-open, .fa-phone {
+    color: rgb(27, 77, 62);
+}
+h5 {
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fbox a {
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width: 950px) {
+    #imgcontainerbig {
+        width: 85%;
+        margin: auto;
+    }
+    .imagecontainers:nth-child(3), .imagecontainers:nth-child(4)
+     {
+        border-top: 1px solid #8f9075;
+    }
+    .imagecontainers:nth-child(2) {
+        border-right: none;
+    }
+    .imagecontainers {
+        width: 50%;
+       
+    }
+    #beforecontainer, #secondcontainer {
+       flex-flow: row wrap;
+    }
+.beforecontainers{
+    width: 49.5%;
+       margin-top: 1%; 
+}
+.beforecontainers:last-child {
+
+    width: 100%;
+}
+.beforecontainersl {
+    margin-top: 1%;
+    width: 100%;
+}
+    #fcontent {
+    flex-direction: column;
+    width: 90%;
+}
+.fbox {
+    width: 100%;
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+}
+.fbox:last-child {
+    border-bottom: none;
+}
+#subarea {
+    width: 80%;         
+}
+
+}
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 2.5rem;
+        padding-top: 130px;
+    }
+    #transform {
+        font-size: 1rem;
+    }
+    #proudly {
+        font-size: 2rem;
+        padding-top: 150px;
+    }
+    #subarea {
+        font-size: 1.2rem;
+    }
+    .cta {
+        font-size: 1.2rem;
+        padding: 8px 20px;
+    }
+    #imgcontainerbig {
+        flex-direction: column;
+    } 
+    .imagecontainers {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #8f9075;
+    }
+        .imagecontainers:nth-child(3), .imagecontainers:nth-child(4) {
+        border-top: none;
+    }
+    .imagecontainers:last-child {
+        border-bottom: none;
+    }
+    #beforecontainer {
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    #secondcontainer {
+        width: 85%;
+        margin-top: 5%;
+    }
+    .beforecontainers {
+        width: 100%;
+    }
+    #phone-devider {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
