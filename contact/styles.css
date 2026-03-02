@@ -1,0 +1,44 @@
+body{
+    padding-top: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: clamp(260px, 35%, 920px);
+    margin: 30px auto;
+}
+h1 {
+    text-align: center;
+    color: rgb(27, 77, 62);
+    font-size: 3rem;
+    margin: 20px 0;
+}
+p{
+    font-size: 1.5rem;
+    color: rgb(27, 77, 62);
+}
+input, textarea, button {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: "Roboto Flex", sans-serif;
+    outline-offset: 1px;
+    
+}
+input:focus, textarea:focus, button:focus {
+    outline: 2px solid #314e30;
+}
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+button{
+    cursor: pointer;
+    background: linear-gradient(rgb(49, 133, 107), rgb(70, 146, 74));
+}
+button:hover {
+    background: linear-gradient(rgb(34, 112, 90), rgb(55, 126, 60));
+}
