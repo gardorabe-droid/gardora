@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="../stylesall.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" rel="stylesheet">
+       <!-- This code works for ALL pages on gardora.be without modification -->
+<link rel="canonical" href="https://gardora.be" id="canonical-link">
+
+<script>
+  // 1. Permanent hide for github.io version
+  if (window.location.hostname.includes("github.io")) {
+    var meta = document.createElement('meta');
+    meta.name = "robots";
+    meta.content = "noindex, nofollow";
+    document.head.appendChild(meta);
+  }
+  
+  // 2. Automatically updates the link for pages like /about or /contact
+  document.getElementById('canonical-link').href = "https://gardora.be" + window.location.pathname;
+</script>
 </head>
 <body>
    <header>
